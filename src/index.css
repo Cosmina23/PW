@@ -1,1 +1,68 @@
 
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(23, 90, 5, 0.87);
+    background-color: #E8FFFF;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  
+  div{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input{
+    margin-bottom: 10px;
+    background-color: rgb(224, 255, 236);
+    border-radius: 10px;
+    
+  }
+  
+  button{
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #195539 0%, #7ad8a6 100%);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    animation: rainbow 3s linear infinite;
+  }
+  
+  
+  .userTag{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px; 
+  }
+  
+  .user{
+    width: 50px;
+    height: 50px;
+    color: black;
+  }
+  
+  .h{
+    position: fixed;
+    left: 150px;
+    top: 0px;
+  }
+  
+  

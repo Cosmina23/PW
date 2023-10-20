@@ -1,0 +1,21 @@
+.title{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    color: rgba(23, 90, 5, 0.87);
+}
+
+p{
+    color: rgba(23, 90, 5, 0.87);
+}
+
+.wrraper1{
+    width:420px; 
+    height: 500px;
+    border: 2px solid;
+    backdrop-filter: blur(10px);
+    color: #E8FFFF;
+    border: 2px solid rgba(23, 90, 5, 0.87);
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgb(23, 90, 5,  0.87);
+}
